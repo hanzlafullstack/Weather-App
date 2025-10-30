@@ -2,7 +2,7 @@
 
 A responsive weather app that shows real time conditions and a five day forecast for any city. It supports geolocation, day and night themes, and timezone aware time display.
 
-[Deployed App](https://weather-app-three-sigma-54.vercel.app/) • [GitHub Repo](https://github.com/hanzlafullstack/Weather-App)
+[Deployed App](https://hanzlafullstack-weather-app.vercel.app/) • [GitHub Repo](https://github.com/hanzlafullstack/Weather-App)
 
 <img src="./backgrounds/day-preview.png" alt="Day Preview" width="48%" /> <img src="./backgrounds/night-preview.png" alt="Night Preview" width="48%" />
 
@@ -89,5 +89,5 @@ Weather-App/
 For learning and portfolio use. Weather data and brand assets belong to their respective owners.
 
 References:  
-- Deployed app: <a href="https://weather-app-three-sigma-54.vercel.app">https://weather-app-three-sigma-54.vercel.app</a>
+- Deployed app: <a href="https://hanzlafullstack-weather-app.vercel.app/">https://hanzlafullstack-weather-app.vercel.app/</a>
 - Repository: <a href="https://github.com/hanzlafullstack/Weather-App">https://github.com/hanzlafullstack/Weather-App</a>
