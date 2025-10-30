@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="mainWrapper">
+            <div class="InputWrapperTop">
+                <div class="city-DDT-status">
+                    <h1 id="cityName"></h1>
+                    <p id="DDT"><span id="dayName"></span> , <span id="fullDateShort"></span> | <span id="CurrentTime"></span></p>
+                </div>
+                <div class="input-Buttons-Box">
+                    <input type="text" id="Input" class="Input active" />
+                    <button id="SearchButton">Search</button>
+                    <button id="Location">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="black"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-locate-fixed-icon lucide-locate-fixed"
+                        >
+                            <line x1="2" x2="5" y1="12" y2="12" />
+                            <line x1="19" x2="22" y1="12" y2="12" />
+                            <line x1="12" x2="12" y1="2" y2="5" />
+                            <line x1="12" x2="12" y1="19" y2="22" />
+                            <circle cx="12" cy="12" r="7" />
+                            <circle cx="12" cy="12" r="3" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="weatherInformationWrapper">
+                <div class="TemperatureWrapper">
+                    <div class="temperatureBox">
+                        <span id="TemperatureAmount"></span>
+                    </div>
+                    <div class="TemperatureUnitandInfo">
+                        <p id="C-and-F-Para"><span id="celsius"> °C</span></p>
+                        <p id="CloudToText"></p>
+                    </div>
+                </div>
+                <div class="cloudIconAndInfoWrapper">
+                    <div class="iconBox">
+                        <img src="" alt="CloudIcon" id="MiddleSVG-weather" />
+                    </div>
+                    <div class="WeatherDataWrapper">
+                        <li>
+                            <img src="icons/feels-like.svg" alt="" />
+                            <span>Feels like : <span id="tempFeel"></span><span id="TempType"> °C</span></span>
+                        </li>
+                        <li>
+                            <img src="icons/humidity.svg" alt="" />
+                            <span>Humidity : <span id="humidity"></span> %</span>
+                        </li>
+                        <li>
+                            <img src="icons/wind.svg" alt="" />
+                            <span>Wind : <span id="windSpeed"></span> km/h</span>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="UpcomingPredictionsWrapper">
+                <div class="upcomingWeekPreditions" id="day1">
+                    <p id="upcomingday1-Name" class="upcomingday-Name">Saturday</p>
+                    <img src="icons/01d.svg" alt="" class="upcomingdays-svg" id="upcomingday1-svg" />
+                    <p><span id="minimumTemp-day1">24</span>° - <span id="maximumTemp-day1">13</span>°</p>
+                    <p id="upcomingday1-couldType" class="upcomingday-cloudType">OverCast Clouds</p>
+                </div>
+                <div class="upcomingWeekPreditions" id="day2">
+                    <p id="upcomingday2-Name" class="upcomingday-Name">Saturday</p>
+                    <img src="icons/01d.svg" alt="" class="upcomingdays-svg" id="upcomingday2-svg" />
+                    <p><span id="minimumTemp-day2">24</span>° - <span id="maximumTemp-day2">13</span>°</p>
+                    <p id="upcomingday2-couldType" class="upcomingday-cloudType">OverCast Clouds</p>
+                </div>
+                <div class="upcomingWeekPreditions" id="day3">
+                    <p id="upcomingday3-Name" class="upcomingday-Name">Saturday</p>
+                    <img src="icons/01d.svg" alt="" class="upcomingdays-svg" id="upcomingday3-svg" />
+                    <p><span id="minimumTemp-day3">24</span>° - <span id="maximumTemp-day3">13</span>°</p>
+                    <p id="upcomingday3-couldType" class="upcomingday-cloudType">OverCast Clouds</p>
+                </div>
+                <div class="upcomingWeekPreditions" id="day4">
+                    <p id="upcomingday4-Name" class="upcomingday-Name">Saturday</p>
+                    <img src="icons/01d.svg" alt="" class="upcomingdays-svg" id="upcomingday4-svg" />
+                    <p><span id="minimumTemp-day4">24</span>° - <span id="maximumTemp-day4">13</span>°</p>
+                    <p id="upcomingday4-couldType" class="upcomingday-cloudType">OverCast Clouds</p>
+                </div>
+                <div class="upcomingWeekPreditions" id="day5">
+                    <p id="upcomingday5-Name" class="upcomingday-Name">Saturday</p>
+                    <img src="icons/01d.svg" alt="" class="upcomingdays-svg" id="upcomingday5-svg" />
+                    <p><span id="minimumTemp-day5">24</span>° - <span id="maximumTemp-day5">13</span>°</p>
+                    <p id="upcomingday5-couldType" class="upcomingday-cloudType">OverCast Clouds</p>
+                </div>
+                <div class="upcomingWeekPreditions" id="day6">
+                    <p id="upcomingday6-Name" class="upcomingday-Name">Saturday</p>
+                    <img src="icons/01d.svg" alt="" class="upcomingdays-svg" id="upcomingday6-svg" />
+                    <p><span id="minimumTemp-day6">24</span>° - <span id="maximumTemp-day6">13</span>°</p>
+                    <p id="upcomingday6-couldType" class="upcomingday-cloudType">OverCast Clouds</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="footer" id="footerP1">Made with ☁️ & ❤️ by <a href="https://github.com/hanzlafullstack" target="_blank" class="link">@hanzlafullstack</a> - github Profile</p>
+            <p class="footer" id="footerP2">© 2025 Weather App • All rights reserved</p>
+            </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
