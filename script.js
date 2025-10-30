@@ -19,14 +19,14 @@ Input.addEventListener("keypress", (event) => {
     if (Input.value.trim() != "") {
         if (event.key == "Enter") {
             UpdateWeatherInfo(Input.value);
-            Input.focus()
+            
         }
     }
 });
 SearchButton.addEventListener("click", () => {
     if (Input.value.trim() != "") {
         UpdateWeatherInfo(Input.value);
-        Input.focus()
+        
     }
 });
 
@@ -40,7 +40,7 @@ Location.addEventListener("click", () => {
                 
                 // Get city name from coordinates
                 getCityFromCoordinates(latitude, longitude);
-                Input.focus();
+                
             },
             (error) => {
                 console.error("Error getting location:", error);
