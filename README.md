@@ -77,7 +77,7 @@ Weather-App/
      ```
 4. Deploy:
    - You can deploy to Vercel or Netlify. Current deployment:  
-     https://weather-app-three-sigma-54.vercel.app/
+     https://hanzlafullstack-weather-app.vercel.app/
 
 ## Notes
 
