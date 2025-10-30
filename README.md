@@ -89,5 +89,5 @@ Weather-App/
 For learning and portfolio use. Weather data and brand assets belong to their respective owners.
 
 References:  
-- Deployed app: `https://weather-app-three-sigma-54.vercel.app/`  
-- Repository: `https://github.com/hanzlafullstack/Weather-App`
+- Deployed app: <a href="https://weather-app-three-sigma-54.vercel.app">https://weather-app-three-sigma-54.vercel.app</a>
+- Repository: <a href="https://github.com/hanzlafullstack/Weather-App">https://github.com/hanzlafullstack/Weather-App</a>
